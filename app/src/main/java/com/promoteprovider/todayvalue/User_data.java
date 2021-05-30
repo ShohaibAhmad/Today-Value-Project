@@ -2,7 +2,7 @@ package com.promoteprovider.todayvalue;
 
 public class User_data {
     private String email,pass,name,referCode;
-
+    private long coins = 10000;
     public User_data() {
     }
 
@@ -43,5 +43,13 @@ public class User_data {
 
     public void setReferCode(String referCode) {
         this.referCode = referCode;
+    }
+
+    public long getCoins() {
+        return coins;
+    }
+
+    public void setCoins(long coins) {
+        this.coins = coins;
     }
 }
